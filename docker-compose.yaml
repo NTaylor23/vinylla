@@ -1,0 +1,18 @@
+services:
+  server:
+    env_file:
+      - .env
+    build:
+      context: ./vinylla_server
+    ports:
+      - "8000:8000"
+
+  client:
+    build:
+      context: ./vinylla_client
+    ports:
+      - "5173:5173"
+
+
+volumes:
+  vinylla_client:

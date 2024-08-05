@@ -1,0 +1,1 @@
+To start the container, `cd` into `vinylla` and run: `docker-compose up --build`.
