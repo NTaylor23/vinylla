@@ -3,7 +3,7 @@ services:
     env_file:
       - .env
     build:
-      context: ./vinylla_server
+      context: ./vinylla_django_server
     ports:
       - "8000:8000"
 
